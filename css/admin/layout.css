@@ -1,0 +1,40 @@
+html{
+    height: 100%;
+}
+
+header{
+    background-color: #62b3b9;
+}
+body{
+    height: 100%;
+}
+.body{
+    background-color: #04a3ae;
+    display: flex;
+    height: 100%;
+    flex-direction: column;  
+    flex-grow: 1;
+}
+
+.aside{
+    background-color: antiquewhite;
+  
+}
+.main{
+    background-color: white;
+    flex-grow: 1;
+
+}
+
+.footer{
+    background-color: #76c1b1;
+    
+}
+/* ------------------------ */
+@media (min-width: 500px)  
+ { .body{flex-direction: row; }}
+ 
+
+
+ @media (min-width: 800px)  
+ { .body{flex-direction: row; }}

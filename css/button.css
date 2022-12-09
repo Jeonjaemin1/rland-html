@@ -1,0 +1,54 @@
+.btn{
+    padding:.4em.8em;
+    color:white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+
+
+.btn-basic{
+    border-radius: 20px;
+    border: 1px solid #69CCC1;
+    background-color: #69CCC1;
+    color:#fff
+}
+
+.btn-cancle{
+    border-radius: 20px;
+    color: rgb(116, 24, 24);
+    background-color: #ffffff;
+    border: 1px solid #69CCC1;
+}
+
+.btn-basic-fill{
+    background-color: #69CCC1;
+    
+}
+
+.btn-basic-blank{
+   background-color: #fff;
+   color:#000;
+
+  
+}
+
+.btn-size{
+    width: 80px;
+}
+
+@media(min-width: 768px){
+ 
+
+    .btn-md{
+        border-radius: 0px;
+        font-size: larger;
+        border: 1px solid #69CCC1;
+        background-color: #69CCC1;
+        color:#fff
+    }
+
+
+}
