@@ -7,7 +7,9 @@
     transition: 0.5s;
 }
 
-
+.btn-new{
+    /* 새로운 버튼 스타일 */
+}
 
 .btn-basic{
     border-radius: 20px;
